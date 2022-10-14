@@ -1,0 +1,50 @@
+body {
+   font-family: 'Quicksand', sans-serif;
+   font-size: 18px;
+   font-weight: 300;
+}
+.nav-hover:hover {
+   color: var(--bs-nav-pills-link-active-color);
+   background-color: var(--bs-nav-pills-link-active-bg);
+   transition: color .3s ease-in 
+               background-color .3s ease-in;
+}
+
+.fa-ghost {
+   font-size: 50px;
+}
+
+.home-border-top {
+   border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+}
+
+.bi {
+   vertical-align: -.125em;
+   fill: currentColor;
+ }
+
+
+.icon-link > .bi {
+   margin-top: .125rem;
+   margin-left: .125rem;
+   fill: currentcolor;
+   transition: transform .25s ease-in-out;
+}
+.icon-link:hover > .bi {
+   transform: translate(.25rem);
+}
+
+ 
+.flex {
+   display: flex;
+
+}
+
+#app {
+   margin: 2em;
+   line-height: 1.5;
+   font-weight: 500;
+}
+a{
+color: var(--bs-nav-link-color);
+}
